@@ -143,4 +143,5 @@ free ---- memory usages in bytes
 free -h ---    human readble
 top --- usees processs
 htop
+git branch -m master main------> rename branch names 
                                       all my own doc
