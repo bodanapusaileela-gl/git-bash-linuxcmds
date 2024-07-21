@@ -146,8 +146,11 @@ htop
 git branch -m master main------> rename branch names
 ---->at a time stage area to commit      ---->git commit -a -m "staagearead and commit ata time"
 ------->incorrect commit fixed  ------->    git commit  --amend -m "incorrect commit msg correect modifed correct commit msgs"
+<<<<<<< HEAD
 git reset --soft <previous_commit id>
 git stash ------- temp stored msgs
 git stash ----- before stage area msgs store 
+=======
+>>>>>>> 55a006d29e956fb8a3d0b10a62f1baa7377c746d
 
                                       all my own doc
