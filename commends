@@ -140,4 +140,8 @@ free -h  ---->  human reable
 awk ---->command is used for pattern scanning and processing. It's useful for extracting specific fields from text.-----> example -----echo "Hello World" | awk '{print $2}' ----->output  = World
 sed  ------>  repalce content   like ---- >echo "Hello World" | sed 's/World/Universe/'   -----> output  --->    Hello Universe 
 
+free ---- memory usages in bytes
+free -h ---    human readble
+top --- usees processs
+htop
 
