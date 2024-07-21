@@ -1,0 +1,143 @@
+ls---list of files
+ls<pathname>
+ls -l---- ower setting      long format
+ls -a---- hidden files
+ls -lrt----   recent modified at last
+sudo  ---- root dir
+sudo useradd  leela ----- add user
+sudo password username --passwoed
+usermod -aG sudo <username >     ---- root access to the user
+sudo userdel <username>-----delete the user
+sudo  groupadd <gropupname>
+sudo groupdel <gname>
+sudo usermod -g <groupname> <username>----- adding a user to primary group
+cat ---- can you read contents
+cat -b       ---- add line line num to non-blank lines
+ cat -n ----- adad line number to all lines
+ cat -s    --- squeezes black lines
+ cat -E -----   end of the line
+ grep --   seaching particular string              use to clt+F    
+
+ grep -n   ----Returns the matching strings along with their line number
+ grep -v  ----- not matching string 
+ grep -c  ----- Returns the number of lines in which the results matched the search string
+sort ---  order the files
+sort -r -- rever of the file
+sort -n ---- the flag returns the results as per numerical order
+sortr -f   ---- insensitive sorting 
+chmod ----  change permission file to direc
+chmod <permissions of user, group, others> {filename}
+4 – read permission
+2 – write permission
+1 – execute permission
+0 – no permission
+chmod 777 <filename.sh>
+Give permission to file
+ifconfig   ----- interface configure ---------- when needed during debugging or 
+when you need system tuning. Also, this command is used to assign the IP 
+address and netmask to an interface or to enable or disable a given interface.
+
+ifconfig -a   --- display all interface aavaible  
+ifconfig -s---- display the short list    
+history ---  hostory of commends
+history -c ---- clean the history 
+
+history 13   ----  last 13 commedt dispaly
+ssh-keygen    ------->Use the ssh-keygen command to generate a public/private authentication key 
+pair. Authentication keys allow a user to connect to a remote system without 
+supplying a password. Keys must be generated for each user separately. If you 
+generate key pairs as the root user, only the root can use the keys.
+ssh-keygen -t rsa  ----->
+The following example creates the public and private parts of an RSA key
+curl ---->
+curl is a command-line tool to transfer data to or from a server, using any of the 
+supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, 
+LDAP or FILE). This tool is preferred for automation since it is designed to work 
+without user interaction. It can transfer multiple files at once.
+curi -o -->
+saves the downloaded file on the local machine with the name provided in the 
+parameters.
+apt-get----->
+apt-get is a command-line tool that helps in handling packages in Linux. Its 
+main task is to retrieve the information and packages from the authenticated 
+sources for installation, upgrade and removal of packages along with their 
+dependencies. Here APT stands for the Advanced Packaging Tool
+apt-get update -->
+This command is used to synchronize the package index files from their 
+sources again. You need to perform an update before you upgrade.
+ps --->
+Every process in Linux has a unique ID and can be seen using the command ps.
+sudo ps aux   ----->
+a=show processes for all users
+u=display the process’s user/owner
+x=also show processes not attached to a terminal
+telnet localhost   --->
+connect to a remote Linux computer.
+run programs remotely and conduct administration.
+cd --->
+Change directory.
+mkdir  leela
+Make folder or directory.
+touch saileela
+rm <file_name>
+Remove file. ------ remove the saileela
+rm -r <dir_name>  ------ remove leela   directory
+Remove directory dir
+rm -f <file_name>   
+Remove file forcefully.
+rm -rf <dir_name>
+Remove directory forcefully.
+cp   oldfile  newfile   
+Copy  oldfile data to newfile data
+mv fileA fileB
+Move or rename fileA to fileB
+touch <file_name>
+Create file.
+cat <file_name>
+Displays the content of file.
+more <file_name>
+Displays first 10 lines of file.
+tail <file_name>
+Displays last 10 line of file.
+ping host
+Ping host and output result
+wget file
+Download file.
+top
+Display top process.
+kill pid
+Kill process with process id.
+netstat -r -v
+Print network information, routing and connection.
+df
+Shows disk usage.
+du
+Shows directory space usage.
+date
+Shows the current Server date and time.
+cal
+Shows this month calendar.
+whoami
+Show user who is logged in.
+tar cf file.tar files
+create a tar named file.tar containing files.
+tar xf file.tar
+extract the files from file.tar
+tar czf file.tar.gz files
+create a tar with Gzip compression.
+tar xzf file.tar.gz
+extract a tar using Gzip
+tar cjf file.tar.bz2
+create a tar with Bzip2 compression.
+tar xjf file.tar.bz2
+extract a tar using Bzip2
+gzip file
+compresses file and renames it to file.gz
+gzip -d file.gz
+decompresses file.gz back to file
+free -----> memory usage in bytes.
+free -h  ---->  human reable  
+awk ---->command is used for pattern scanning and processing. It's useful for extracting specific fields from text.-----> example -----echo "Hello World" | awk '{print $2}' ----->output  = World
+sed  ------>  repalce content   like ---- >echo "Hello World" | sed 's/World/Universe/'   -----> output  --->    Hello Universe 
+
+
