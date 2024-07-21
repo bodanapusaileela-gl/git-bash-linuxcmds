@@ -17,7 +17,6 @@ cat -b       ---- add line line num to non-blank lines
  cat -s    --- squeezes black lines
  cat -E -----   end of the line
  grep --   seaching particular string              use to clt+F    
-
  grep -n   ----Returns the matching strings along with their line number
  grep -v  ----- not matching string 
  grep -c  ----- Returns the number of lines in which the results matched the search string
