@@ -1,0 +1,26 @@
+ explanations for the listed Git errors:
+Committing/pushing without global configurations: You must set your name and email globally to track changes correctly.
+Cloning private repos without credentials: Private repositories require proper credentials for cloning.
+SSH key issues preventing clone/push/pull: Ensure correct SSH key setup to avoid errors during these operations.
+Pushing without pulling: Always pull the latest changes before pushing to avoid conflicts.
+Merge conflicts and simultaneous modifications errors: Resolve conflicts carefully to ensure a smooth workflow.
+SSH port issues in EC2 affecting GitHub connectivity: Open the necessary SSH ports in EC2 to connect to GitHub.
+Running Git commands outside the repository: Execute Git commands within the repository directory to avoid errors.
+Incorrect .gitignore patterns and tracking: Use proper patterns in .gitignore and track the file to avoid issues.
+Misunderstanding branch/commit relationships: Understand that changes are branch-specific and require committing.
+Incorrect branch operations: Avoid pushing or pulling from/to the wrong branch.
+Issues with git stash, git reset/revert: Use these commands carefully as they can affect your data significantly.
+Deleting important untracked files: Ensure you don't accidentally delete crucial untracked files.
+Using improper commit tags and sharing credentials: Use meaningful commit tags and keep credentials secure.
+Improper pull request management: Merge pull requests correctly to integrate changes smoothly.
+Creating too many branches causing confusion: Manage branches efficiently to avoid getting lost.
+
+
+
+
+Not merging pull requests properly: Ensure proper integration of changes.
+Creating too many branches and getting confused: Manage branches efficiently.
+Merging wrong branches: Verify branches before merging.
+Deleting local repositories by mistake: Be cautious to avoid accidental deletions.
+Not updating team leads/managers about status and errors: Communicate effectively.
+Being unprepared for training sessions: Prepare well and use clear communication.
