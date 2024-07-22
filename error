@@ -1,4 +1,4 @@
-ere are the explanations for the listed Git errors:
+ explanations for the listed Git errors:
 
 Committing/pushing without global configurations: You must set your name and email globally to track changes correctly.
 Cloning private repos without credentials: Private repositories require proper credentials for cloning.
