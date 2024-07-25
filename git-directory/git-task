@@ -1,4 +1,9 @@
-git task
-git  add
-git status
-git add
+To initialize a Git repository, use git init. To clone a repository, use git clone <repository-url>. Check the status of your repository with git status. Add changes to the staging area using git add <file-name> or git add . to add all changes. Commit changes with git commit -m "commit message". View the commit history using git log.
+
+For branching and merging, create a new branch with git branch <branch-name>, switch to a different branch with git checkout <branch-name>, and create and switch to a new branch with git checkout -b <branch-name>. Merge a branch into the current branch using git merge <branch-name>.
+
+For remote repositories, add a remote repository with git remote add <remote-name> <repository-url>, fetch changes from a remote repository using git fetch <remote-name>, pull changes with git pull <remote-name> <branch-name>, and push changes using git push <remote-name> <branch-name>.
+
+For additional tasks, stash changes using git stash, apply stashed changes with git stash apply, delete a branch using git branch -d <branch-name>, revert a commit with git revert <commit-hash>, and reset to a previous commit with git reset --hard <commit-hash>.
+
+To view differences, use git diff <commit-hash1> <commit-hash2> to view differences between commits, and git diff to view differences between the working directory and the staging area
